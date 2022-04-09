@@ -23,7 +23,7 @@ public class tire : MonoBehaviour{
             foreach (Transform wheel in _carMovement.wheels)
                 _carMovement._rbCar.AddForceAtPosition(_staticFriction * Vector2.left, wheel.position);
 
-            Debug.Log("yes");
+            Debug.Log("Hello ");
         }
     }
 }
